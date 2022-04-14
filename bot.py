@@ -4,8 +4,6 @@ import discord
 from dotenv import load_dotenv
 from dadjokes import get_post_reddit
 
-
-
 # Load environment variables
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
